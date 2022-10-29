@@ -11,3 +11,8 @@ let adulto: boolean = true; // true or false
 let simbolo: symbol = Symbol( 'qualquer-symbol'); // symbol
 
 // let big: bigint = 10n; // bigint
+
+
+// Arrays
+let arrayDeNumeros: Array<number> = [1, 2, 3]
+let arrayDeStrings: Array<string> = ['a', 'b', 'c']
