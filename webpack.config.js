@@ -9,6 +9,9 @@ module.exports = {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
+        options: {
+          configFile: 'tsconfig.frontend.json',
+        },
       },
     ],
   },
@@ -19,5 +22,5 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist', 'assets', 'js'),
   },
-  devtool: 'source-map,',
+  devtool: 'source-map',
 };
