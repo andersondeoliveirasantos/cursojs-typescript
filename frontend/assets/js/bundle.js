@@ -1,6 +1,17 @@
 /******/ (() => { // webpackBootstrap
-/******/ 	"use strict";
-/******/ 	var __webpack_modules__ = ({});
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/A0019-exercicio/form-control.ts":
+/*!*********************************************!*\
+  !*** ./src/A0019-exercicio/form-control.ts ***!
+  \*********************************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/ts-loader/index.js):\nError: TypeScript emitted no output for D:\\ANDERSON\\workspace\\cursojs-typescript\\src\\A0019-exercicio\\form-control.ts.\n    at makeSourceMapAndFinish (D:\\ANDERSON\\workspace\\cursojs-typescript\\node_modules\\ts-loader\\dist\\index.js:52:18)\n    at successLoader (D:\\ANDERSON\\workspace\\cursojs-typescript\\node_modules\\ts-loader\\dist\\index.js:39:5)\n    at Object.loader (D:\\ANDERSON\\workspace\\cursojs-typescript\\node_modules\\ts-loader\\dist\\index.js:22:5)");
+
+/***/ })
+
+/******/ 	});
 /************************************************************************/
 /******/ 	// The module cache
 /******/ 	var __webpack_module_cache__ = {};
@@ -28,15 +39,16 @@
 /******/ 	
 /************************************************************************/
 var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it uses a non-standard name for the exports (exports).
+// This entry need to be wrapped in an IIFE because it need to be in strict mode.
 (() => {
+"use strict";
 var exports = __webpack_exports__;
 /*!************************************************!*\
   !*** ./src/A0019-exercicio/A0019-exercicio.ts ***!
   \************************************************/
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__webpack_require__(Object(function webpackMissingModule() { var e = new Error("Cannot find module '../A0035-exercicio-video/A0035-exercicio-video'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+__webpack_require__(/*! ./form-control */ "./src/A0019-exercicio/form-control.ts");
 
 })();
 
