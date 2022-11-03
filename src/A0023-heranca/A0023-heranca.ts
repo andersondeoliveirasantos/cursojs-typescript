@@ -30,9 +30,14 @@ export class Cliente extends Pessoa {
   }
 }
 
-const pessoa = new Pessoa('Luiz', 'Miranda', 30, '000.000.000-00');
-const aluno = new Aluno('Luiz', 'Miranda', 30, '000.000.000-00');
-const cliente = new Cliente('Luiz', 'Miranda', 30, '000.000.000-00');
+const pessoa = new Pessoa(
+  'Anderson',
+  'de Oliveira Santos',
+  30,
+  '000.000.000-00',
+);
+const aluno = new Aluno('Daniela', 'Cristina', 30, '000.000.000-00');
+const cliente = new Cliente('Alice', 'Silva de Oliveira', 30, '000.000.000-00');
 
 console.log(pessoa.getNomeCompleto());
 console.log(aluno.getNomeCompleto());
